@@ -1,4 +1,2 @@
-
-d3.json("//samples.json").then(function(data){
-    console.log(data); 
-})
+let data = d3.json("samples.json"); 
+console.log(data); 
