@@ -90,7 +90,6 @@ function buildBubChart(sample){
     });
 }
 
-
 //function that initialize in the dashboard 
 function initialize()
 {
