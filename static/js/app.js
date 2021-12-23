@@ -90,6 +90,9 @@ function buildBubChart(sample){
     });
 }
 
+
+
+
 //function that initialize in the dashboard 
 function initialize()
 {
@@ -112,6 +115,7 @@ function initialize()
         demoInfo(first_sample); 
         buildBarChart(first_sample); 
         buildBubChart(first_sample); 
+
     });
 };
 
@@ -124,6 +128,7 @@ function optionChanged(item)
     buildBarChart(item); 
     //call bubble chart 
     buildBubChart(item); 
+
 }
 
 //call the initialize function 
